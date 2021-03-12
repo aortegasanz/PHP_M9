@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "64613772-93dc-4ab6-a7e7-8eb5ee38a5bf",
+		"name": "itAcademy PHP_M9 Exercici 6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Paises (GET)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises (POST)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises (show)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises/Spain",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"Spain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises (update)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises/England",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"England"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises (destroy)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises Departamentos (GET)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises/Spain/departamentos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"Spain",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises Departamentos (POST)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises/Spain/departamentos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"Spain",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises Departamentos (show)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises/Spain/departamentos/Cataluña",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"Spain",
+						"departamentos",
+						"Cataluña"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises Departamentos (update)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost/paises/Spain/departamentos/Cataluña",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"Spain",
+						"departamentos",
+						"Cataluña"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises Departamentos (delete)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/paises/Spain/departamentos/Cataluña",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"paises",
+						"Spain",
+						"departamentos",
+						"Cataluña"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

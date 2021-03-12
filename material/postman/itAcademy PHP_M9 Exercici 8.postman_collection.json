@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "f16f136d-9c63-4346-be01-f87c9a87ed32",
+		"name": "itAcademy PHP_M9 Exercici 8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{ip}}:{{port}}/paises/Spain",
+					"protocol": "http",
+					"host": [
+						"{{ip}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"paises",
+						"Spain"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "c926a9f3-36af-4c59-968f-bd622c703a1c",
+		"name": "itAcademy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PHP_M9 Exercici 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/empresa/Orbora%20Systems",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"empresa",
+						"Orbora%20Systems"
+					]
+				},
+				"description": "http://localhost/empresa/Orbora%20Systems"
+			},
+			"response": []
+		}
+	]
+}
